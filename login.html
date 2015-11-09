@@ -4,36 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>EPAM Front-end project</title>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-<!-- header -->
-<header>
-    <!-- logo -->
-    <div>
-        <img src="/" alt="" title="" width="80px" height="30px" />
+<div class="mid">
+    <div class="block">
+        <h1>Please Sign In</h1>
+        <form method="post">
+            <label for="email-fields"><input type="email" name="email" id="email-fields"></label>
+            <label for="password-fields"><input type="password" name="password" id="password-fields"></label>
+            <label><input type="checkbox" name="checkbox" id="checkbox-field" cheked>Remember me</label>
+            <br>
+        </form><input type="submmit"  id="signin-btn" value="Sign In">
     </div>
-    <!-- search-form, buttons -->
-    <div>
-        <form action="/">
-            <input type="search" />
-        </form>
-        <a href="">cart</a>
-        <a href="">profile</a>
-    </div>
-</header>
-
-
-<h1>Please Sign In</h1>
-<form method="post">
-    <label for="email-fields"><input type="email" name="email" id="email-fields"></label>
-    <label for="password-fields"><input type="password" name="password" id="password-fields"></label>
-    <label><input type="checkbox" name="checkbox" id="checkbox-field" cheked>Remember me</label>
-    <br>
-</form><input type="submmit" value="Sign In">
-<!-- footer -->
-<footer>&copy; EPAM Izhevsk, Patrakova-Vitkovskii, 2015</footer>
+</div>
 </body>
 </html>
