@@ -1,8 +1,8 @@
 /*структура*/
 body{ background-color: #eceefe; margin:0px; padding:0px; font: 16px Arial, Tahoma, sans-serif; }
-div.mid{ width:1000px; margin:0 auto;}
-div.block{ background-color: #eceef; position: fixed;top: 50%;left: 50%;margin-top: -100px; margin-left: -150px;
-    padding-left: 160px;border: 2px solid #03052d;width: 350px;  box-shadow: 1px 1px 3px #03052d;}
+div.block{ background-color: #f5f5f5; border: 2px solid #cccccc; position: fixed;
+    top: 50%; left: 50%;margin-top: 50%; margin-left: 50%;
+    padding-left: 160px; width: 350px;  box-shadow: 1px 1px 3px #03052d;}
 div.block a{color: #03052d; }
 div.block a:active{color: #cfd4fc;}
 div.block label{display: block;margin-top: 20px;letter-spacing: 2px;}
