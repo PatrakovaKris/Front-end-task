@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 14px;
+}
+header,footer {
+    padding: 10px 0px;
+    background-color: #f5f5f5;
+    border: 2px solid #cccccc;
+}
+header{
+    min-height: 70px;
+    background-color:#333333;
+    color: white;
+    position: inherit;
+    width: 100%;
+    text-align: center;
+    margin-bottom:10px;
+}
+.logo{
+    float:left;
+}
+.search{
+    float:right;
+    width:15%;
+    padding:15px 100px;}
+footer {
+    clear: both;
+    background-color:#333333;
+    color: #ffffff;
+    margin-top:20px;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+div.wrapper{
+    width:90%;
+    min-height: 500px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: #f5f5f5;
+    border: 2px solid #cccccc;
+    padding:10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+div.wrapper img{
+    box-shadow: 1px 1px 5px #777;
+}
+div.item{
+    width:40%;
+    min-height: 500px;
+    float:left;
+    padding:10px;
+    /*border: 2px solid #cccccc;*/
+    /*border-radius: 5px;*/
+    background-color: #f5f5f5;
+    margin-left: 3%;
+}
+nav.bottomMenu{
+    color: #f26221;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.topMenu li{
+    font-size: 15px;
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #e3e3e3;
+    list-style-type: none;
+}
+.topMenu li a{
+    color: #f26221;
+    text-decoration: none;
+}
+.topMenu li a:hover{
+    color:#faa732;
+}
+
+div.itemPicture{
+    display:flex;
+    width: 100%;
+    text-align: center;
+}
+div.itemPicture a{
+    position: relative;
+}
+div.imageLine{
+    display:flex;
+    width: 100%;
+    text-align: center;
+}
+div.imageLine li{
+    display: inline;
+    margin-right:35px;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    border-right: 1px solid #e3e3e3;
+    list-style-type: none;
+}
+
+div.description{
+    float:right;
+    margin-right: 3%;
+    width:45%;
+    padding:0px;
+    /*border: 2px solid #cccccc;*/
+    /*border-radius: 5px;*/
+}
+article p{
+    margin-bottom:
+    48px;
+    color: #616161;
+    font-size: 20px;
+    line-height: 18px;
+}
+div.infoprice{
+    font-size: 40px;
+    color:#f26221;
+}
+div.incart img{
+    position: relative;
+    top: 16px;
+    right: 9px;
+    display: none;
+}
+.BTN{
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-radius:15px;
+    background-color: #faa732;
+}
+
