@@ -1,0 +1,63 @@
+/*структура*/
+body{ background-color: white; margin:0px; padding:0px; font: 16px Arial, Tahoma, sans-serif; }
+header,footer {padding: 10px 0px;background-color: #f5f5f5; border: 2px solid #cccccc;}
+header{min-height: 70px;background-color:#333333;color: white;position: inherit; width: 100%;  text-align: center; margin-bottom:10px;}
+.logo{float:left;}
+.search{float:right;width:15%;padding:15px 100px;}
+footer {clear: both;background-color:#333333;color: #ffffff; margin-top:20px;
+    bottom:0; width:100%; text-align: center;}
+
+/*логин,регистрация 1*/
+div.mid{ width:1000px; margin:0 auto;}
+div.block{ background-color: #f5f5f5;border: 2px solid #cccccc; position: fixed;top: 50%;left: 50%;margin-top: -150px; margin-left: -250px;
+    padding-left: 160px; width: 350px;  box-shadow: 1px 1px 3px #03052d; border-radius: 5px;}
+div.block a{color: #f26221;text-decoration: none; }
+div.block a:active{color: #cfd4fc;}
+div.block label{display: block;margin-top: 20px;letter-spacing: 2px; }
+input{background: #eceefe;border: 1px solid #03052d;padding: 5px;margin-top: 3px;font-size: 0.9em;}
+
+
+/*категории 2*/
+.gallery{margin-left:5%;margin-right:5%;background-color: #f5f5f5; border: 2px solid #cccccc;}
+.gallery .items{margin-left:10%;margin-right:10%;display: inline-block;text-align:center;font-size:20px;}
+.gallery .frame{ background:#ECF0F1; border: 1px solid black;}
+.gallery .image{width:200px; height:200px;background-position:50% 50%; background-repeat:no-repeat;
+    border: 1px solid black; margin-top: 5px;background-color:darkcyan;}
+ul {list-style: none;}
+.gallery li{float: left;  margin-right: 15px;}
+.gallery li a { display: block; /* меняем отображение на блок, чтобы иметь возможность задавать внутренние отступы */
+    padding: 5px; color: #000;text-decoration:none;}
+.gallery li a:hover { color: #fff;}
+
+/*itemcard 3*/
+div.wrapper{width:90%;min-height: 500px;margin-left:5%;margin-right:5%;background-color: #f5f5f5;border: 2px solid #cccccc;padding:10px;border-radius: 5px; display: inline-block;}
+div.wrapper img{box-shadow: 1px 1px 5px #777;}
+div.item{width:40%; min-height: 500px;float:left;padding:10px;background-color: #f5f5f5; margin-left: 3%;}
+nav.bottomMenu{color: #f26221; font-size: 20px;margin-bottom: 25px;}
+.topMenu li{font-size: 15px; float: left; margin-bottom: 15px; padding-left: 10px; padding-right: 10px; border-right: 1px solid #e3e3e3; list-style-type: none;}
+.topMenu li a{ color: #f26221;text-decoration: none;}
+.topMenu li a:hover{color:#faa732;}
+
+div.itemPicture{display:flex;width: 100%;text-align: center;}
+div.itemPicture a{position: relative;}
+div.imageLine{display:flex;width: 100%;text-align: center;}
+div.imageLine li{display: inline; margin-right:35px;/*padding-left: 5px;*//*padding-right: 5px;*/
+    border-right: 1px solid #e3e3e3;list-style-type: none;}
+
+div.description{float:right;margin-right: 3%; width:45%;padding:0px;/*border: 2px solid #cccccc;*//*border-radius: 5px;*/}
+article p{margin-bottom:48px; color: #616161;font-size: 20px;line-height: 18px;}
+div.infoprice{font-size: 40px; color:#f26221;}
+div.incart img{position: relative;top: 16px;right: 9px;display: none;}
+.BTN{display: inline-block;padding: 4px 12px;margin-bottom: 0;line-height: 20px;text-align: center;
+    vertical-align: middle;cursor: pointer;border: 1px solid #cccccc;border-radius:15px;background-color: #faa732;}
+
+/*корзина 4*/
+div.wrap{margin-left:3%;margin-right:3%;background-color: #f5f5f5; border: 2px solid #cccccc; padding:10px; border-radius: 5px; }
+div.wrap img{box-shadow: 1px 1px 5px #777;}
+div.item1{width: 80%; padding:10px; margin: 10px; border: 2px solid #cccccc; border-radius: 5px; background-color: #f5f5f5;}
+div.item1 a{vertical-align: middle;}
+.tMenu li{ display: inline; margin-bottom: 15px; padding-left: 10px;padding-right: 10px; list-style-type: none;}
+.tMenu li a{color: #f26221; text-decoration: none;}
+.tMenu li a:hover{color:#faa732; }
+div.item2{ width: 80%; padding:10px; margin: 10px; border: 2px solid #cccccc; border-radius: 5px; background-color: #f5f5f5;}
+.topMenu li{ display: inline; margin-bottom: 15px; padding-left: 10px;padding-right: 10px; list-style-type: none;}
